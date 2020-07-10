@@ -7,28 +7,28 @@ url: https://www.biorxiv.org/content/10.1101/2019.12.23.887570v1.full#disp-formu
 # フォルダ構成
 メイン（一部省略）
 
-├── cc_markers_data
-│   ├── cyclebase_human.tsv
-│   ├── human_periodic.tsv
-│   ├── mart_export.txt
-│   └── not_used
+├── cc_markers_data 
+│   ├── cyclebase_human.tsv 
+│   ├── human_periodic.tsv 
+│   ├── mart_export.txt 
+│   └── not_used 
 │       ├── 
-├── expr_data
-│   ├── h9.tsv
-│   ├── h9_phase.tsv
-│   ├── mESC_phase.tsv
-│   └── mESC_tpm.tsv
-├── modules
-│   ├── cell_cycle_marker.py
-│   ├── phase_assignment.py
-│   ├── preprocessing.py
-│   ├── rotation.py
-│   ├── vg.py
-│   ├── visualize.py
-│   ├── __pycache__
-│   │   ├──
-├── output
-├── revelio.py
+├── expr_data 
+│   ├── h9.tsv 
+│   ├── h9_phase.tsv 
+│   ├── mESC_phase.tsv 
+│   └── mESC_tpm.tsv 
+├── modules 
+│   ├── cell_cycle_marker.py 
+│   ├── phase_assignment.py 
+│   ├── preprocessing.py 
+│   ├── rotation.py 
+│   ├── vg.py 
+│   ├── visualize.py 
+│   ├── __pycache__ 
+│   │   ├── 
+├── output 
+├── revelio.py 
 
 
 # 実行
@@ -36,6 +36,7 @@ url: https://www.biorxiv.org/content/10.1101/2019.12.23.887570v1.full#disp-formu
 
 ex1)
 マウスのmESCのtpmデータ。フィルタリングあり、対数変換あり、発現変動遺伝子抽出なし、細胞周期割り当ては、Cyclebaseに要録されている細胞周期マーカーの遺伝子発現量を利用。
+
 `python3 revelio.py expr_data/mESC_tpm.tsv mouse --n_genes_filter 500 --n_cells_filter 5 --log_transformation`
 
 ex2)
