@@ -7,28 +7,28 @@ url: https://www.biorxiv.org/content/10.1101/2019.12.23.887570v1.full#disp-formu
 # フォルダ構成
 メイン（一部省略）
 
-├── cc_markers_data 
-│   ├── cyclebase_human.tsv 
-│   ├── human_periodic.tsv 
-│   ├── mart_export.txt 
-│   └── not_used 
-│       ├── 
-├── expr_data 
-│   ├── h9.tsv 
-│   ├── h9_phase.tsv 
-│   ├── mESC_phase.tsv 
-│   └── mESC_tpm.tsv 
-├── modules 
-│   ├── cell_cycle_marker.py 
-│   ├── phase_assignment.py 
-│   ├── preprocessing.py 
-│   ├── rotation.py 
-│   ├── vg.py 
-│   ├── visualize.py 
-│   ├── __pycache__ 
-│   │   ├── 
-├── output 
-├── revelio.py 
+├── cc_markers_data <br> 
+│   ├── cyclebase_human.tsv<br>  
+│   ├── human_periodic.tsv<br>  
+│   ├── mart_export.txt<br>  
+│   └── not_used<br>  
+│       ├──<br>  
+├── expr_data<br>  
+│   ├── h9.tsv<br>  
+│   ├── h9_phase.tsv<br>  
+│   ├── mESC_phase.tsv<br>  
+│   └── mESC_tpm.tsv<br>  
+├── modules<br>  
+│   ├── cell_cycle_marker.py<br>  
+│   ├── phase_assignment.py<br>  
+│   ├── preprocessing.py<br>  
+│   ├── rotation.py<br>  
+│   ├── vg.py<br>  
+│   ├── visualize.py<br>  
+│   ├── __pycache__<br>  
+│   │   ├──<br>  
+├── output<br>  
+├── revelio.py<br>  
 
 
 # 実行
